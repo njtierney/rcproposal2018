@@ -1,0 +1,180 @@
+---
+title: "A unified platform for missing values methods and workflows"
+date: "`r Sys.Date()`"
+bibliography: proposal.bib
+---
+
+_Applicants_
+
+_Julie Josse, Ecole Polytechnique, France; julie.josse@polytechnique.edu_
+
+_Nicholas Tierney, Monash university, Australia; nicholas.tierney@monash.edu_
+
+## The Problem
+
+Missing values are an unavoidable problem when working with real world
+data. They occur for many reasons. For example, individuals choose not
+to answer survey questions, weather measurement devices fail in wet
+weather, or participants drop out of a study. Missing values are
+problematic, as most statistical models and visualisation methods
+require complete data. This problem is exacerbated as more data from
+different sources become available, which may not have been designed to
+be analysed together. Missing values are a problem, so what do we do
+about it?
+
+There are many ways to go from missing data to complete observations.
+The most common approach, despite decades of research advocating
+otherwise, is too toss out cases with missing values. At best, this is
+inefficient; it wastes information from the partially observed cases. At
+worst, it results in biased estimates, particularly when the
+distributions of the missing values are systematically different than
+the observed values. Fortunately, there are better alternatives to
+tossing out cases [@Schafer2002; @Little2002; @VanBuuren2012,
+@Carpenter2012]. Some analysts use model-based
+approaches, integrating likelihoods or posterior distributions over
+missing values. Some use imputation, creating single or multiple
+completed datasets. Some use weighting approaches, appealing to ideas
+from the design-based literature in survey sampling.
+
+R has many more approaches for working with missing data than other statistical
+software such as SAS, SPSS, or STATA. To be exact, there are currently 274 R
+packages on CRAN that mention missing data or imputation in their DESCRIPTION
+files. There are imputation packages such as mice, Amelia, and mi 
+[@mi; @amelia; @mi]. There are providing descriptive statistics and 
+visualisations, like naniar, VIM, and MissingDataGUI [@naniar; @VIM; @Cheng2015]. 
+There are still many other packages developed to handle complex, heterogenous
+(categorical, quantitative, ordinal variables) data of large dimension 
+multi-level data, such as missMDA, and MixedDataImpute 
+[@Josse2016; @Murray2015].
+
+There are many missing data packages in R that solve real problems. A
+problem with so many options is navigating the decision paralysis of
+choice - which one is right for the case at hand. It is not trivial.
+
+This application aims to valorize current work in missing data by
+providing a unified platform that lists and organizes existing packages,
+articles, tutorials, documentation, and workflows for analyses with
+missing data. The platform will be easy to extend, and will be well
+documented, so it can easily incorporate future research in missing
+values. It will also have a focus on fostering a welcoming community.
+
+We hope that such a tool will enable R to consolidate and strengthen its
+leadership position on the subject.
+
+## The Plan
+
+To create this platform, we address our objectives in four parts.
+
+**Part one: listing available R packages**
+
+We will list available packages for working with missing data, with a
+brief description. These can be used as a task-view on the subject, as
+there is currently no task view specific to missing data, aside from
+sections social sciences
+([*https://cran.r-project.org/web/views/SocialSciences.html*](https://cran.r-project.org/web/views/SocialSciences.html))
+and Multivariate Statistics
+([*https://cran.r-project.org/web/views/Multivariate.html*](https://cran.r-project.org/web/views/Multivariate.html)).
+We intend to make a call out to other package authors and research in
+missing data in the R community to join this platform. One person we
+intend to work with is Stefan van Buuren, whose website
+[*http://www.stefvanbuuren.nl/mi/Software.html*](http://www.stefvanbuuren.nl/mi/Software.html)
+is also often used as a reference.
+
+**Part two: list articles and related works by theme**
+
+Similar to part one with R packages, we will list articles and related
+works, organising by theme. This can be rather laborious work, to ensure
+robustness we will also put a call out for authors to submit their
+articles or works to be reviewed for placement on the platform/website.
+
+**Part three: Tutorials and workflows.**
+
+In part three, we provide peer reviewed tutorials and analysis workflows
+with a variety of different kinds of missing data. For example, these
+could focus on exploration and visualization at different stages of the
+analyses, advantages and drawbacks of methods such as likelihood based
+approaches, and imputation methods. After imputation or other treatment
+of the missing data, we will encourage assessing the impact on
+subsequent analyses and inferences.
+
+**Part four: future extensions and beyond**
+
+By providing a platform and community to discuss missing data in R,
+software, and approaches and workflows, we are providing a base from
+which we can grow. For example, this platform could collect datasets to
+benchmark imputation methods, which are currently not being done
+anywhere in the world. By having a community involved in this, we can
+then have useful discussion on the benchmarks, even organize events like
+a challenge to provide the best imputation methods, in a similar fashion
+to the M4 forecasting competition
+(https://robjhyndman.com/hyndsight/m4comp/).
+
+Other ideas that we would like to consider are describing universal
+approaches to multiple imputation, other special types of missing value
+(other than NA like STATAs special missing values), altering messages in
+the base R to encourage other approaches than deleting missing
+observations by default, or at least indicating the risks, etc.
+
+## Team
+
+[Julie Josse](http://juliejosse.com/) has written R packages for missing data,
+include missMDA, and has also authored multiple academic papers on the topic ...
+(more details to come)
+
+[Nicholas Tierney](http://www.njtierney.com/) has written two R packages that 
+focus on data visualisation and approaches for exploring missing data: visdat, 
+and naniar. He has also authored a peer reviewed paper on model based approaches
+for understanding structure in missing data. Nick is very involed with the R
+community, having been the lead organiser for the first two Australian rOpenSci
+ozunconferences ([2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), 
+and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area
+in California.
+
+We will also contact contributors to missing data, such as François Husson, Professor of Statistics at Agrocampus Ouest, France, and Stefan van Buuren, and welcome other interest.
+
+## Timeline - Budget
+
+We would like to conduct the project over the following time periods (M1 refers
+to month 1):
+
+1. (M1-M3). Create the website infrastructure, so that it is easy to
+navigate and to update.
+
+2. (M4-M6). List, organize the packages/articles available.
+
+3. (M7-M10). Write documentation/tutorials to better reproduce the
+existing studies and help the users with their own analyses. The idea is
+to suggest some good practice pipelines to analyse data with missing
+values. Some tutorials will be done with small videos.
+
+4. (M11-M12). Organize data benchmark repository. Start writing an
+article (for the R journal).
+
+Work and steps can be published in blogs on the R Consortium blog.
+
+Expected impact: Missing values handling is crucial for data analysis
+and an easy to use platform could allow users to give more values to
+their analyses
+
+## How ICS can help
+
+## Funding
+
+The following table details the cost items.
+
+  Item                                                       Cost
+  ---------------------------------------------------------- -----------
+  Employ a research assistant for one year (10 hrs / week)   Euro 7000
+  Meeting with partners                                      Euro 1500
+  online materials (such as video)                           Euro 1500
+  Total                                                      10000
+
+### Emplying a research assistant
+
+### Meeting with Partners
+
+### Online materials
+
+## Dissemination
+
+# References
