@@ -138,7 +138,7 @@ $(document).ready(function () {
 </div>
 <div id="the-plan" class="section level2">
 <h2>The Plan</h2>
-<p>To create this platform, we address our objectives in four parts.</p>
+<p>To create this platform, we wish to address the objectives in four parts.</p>
 <p><strong>Part one: listing available R packages</strong></p>
 <p>We will list available packages for working with missing data, with a brief description. These can be used as a task-view on the subject, as there is currently no task view specific to missing data, aside from sections social sciences (<a href="https://cran.r-project.org/web/views/SocialSciences.html"><em>https://cran.r-project.org/web/views/SocialSciences.html</em></a>) and Multivariate Statistics (<a href="https://cran.r-project.org/web/views/Multivariate.html"><em>https://cran.r-project.org/web/views/Multivariate.html</em></a>). We intend to make a call out to other package authors and research in missing data in the R community to join this platform. One person we intend to work with is Stefan van Buuren, whose website <a href="http://www.stefvanbuuren.nl/mi/Software.html"><em>http://www.stefvanbuuren.nl/mi/Software.html</em></a> is also often used as a reference.</p>
 <p><strong>Part two: list articles and related works by theme</strong></p>
@@ -148,24 +148,41 @@ $(document).ready(function () {
 <p><strong>Part four: future extensions and beyond</strong></p>
 <p>By providing a platform and community to discuss missing data in R, software, and approaches and workflows, we are providing a base from which we can grow. For example, this platform could collect datasets to benchmark imputation methods, which are currently not being done anywhere in the world. By having a community involved in this, we can then have useful discussion on the benchmarks, even organize events like a challenge to provide the best imputation methods, in a similar fashion to the M4 forecasting competition (<a href="https://robjhyndman.com/hyndsight/m4comp/" class="uri">https://robjhyndman.com/hyndsight/m4comp/</a>).</p>
 <p>Other ideas that we would like to consider are describing universal approaches to multiple imputation, other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.</p>
+<p>Expected impact: Missing values handling is crucial for data analysis and an easy to use platform could allow users to give more values to their analyses.</p>
 </div>
 <div id="team" class="section level2">
 <h2>Team</h2>
-<p><a href="http://juliejosse.com/">Julie Josse</a> has written R packages for missing data, include missMDA, and has also authored multiple academic papers on the topic … (more details to come)</p>
-<p><a href="http://www.njtierney.com/">Nicholas Tierney</a> has written two R packages that focus on data visualisation and approaches for exploring missing data: visdat, and naniar. He has also authored a peer reviewed paper on model based approaches for understanding structure in missing data. Nick is very involed with the R community, having been the lead organiser for the first two Australian rOpenSci ozunconferences (<a href="auunconf.ropensci.org">2017</a> and <a href="ozunconf17.ropensci.org">2018</a>), and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area in California.</p>
+<p><a href="http://juliejosse.com/">Julie Josse</a> is a professor of statistics at Ecole Polytechnique has written R packages for missing data, include missMDA, and has also authored multiple academic papers on the topic … (more details to come)</p>
+<p><a href="http://www.njtierney.com/">Nicholas Tierney</a> has a PhD in statistics and is a research fellow in the department of econometrics and business statistics. Nick has written two R packages that focus on data visualisation and approaches for exploring missing data: visdat, and naniar. He has also authored a peer reviewed paper on model based approaches for understanding structure in missing data. Nick is very involed with the R community, having been the lead organiser for the first two Australian rOpenSci ozunconferences (<a href="auunconf.ropensci.org">2017</a> and <a href="ozunconf17.ropensci.org">2018</a>), and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area in California. In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities.</p>
 <p>We will also contact contributors to missing data, such as François Husson, Professor of Statistics at Agrocampus Ouest, France, and Stefan van Buuren, and welcome other interest.</p>
 </div>
-<div id="timeline---budget" class="section level2">
-<h2>Timeline - Budget</h2>
+<div id="project-milestones" class="section level2">
+<h2>Project Milestones</h2>
 <p>We would like to conduct the project over the following time periods (M1 refers to month 1):</p>
+<div id="milestone-one-listing-available-r-packages" class="section level3">
+<h3>Milestone one: listing available R packages</h3>
 <ol style="list-style-type: decimal">
-<li><p>(M1-M3). Create the website infrastructure, so that it is easy to navigate and to update.</p></li>
-<li><p>(M4-M6). List, organize the packages/articles available.</p></li>
-<li><p>(M7-M10). Write documentation/tutorials to better reproduce the existing studies and help the users with their own analyses. The idea is to suggest some good practice pipelines to analyse data with missing values. Some tutorials will be done with small videos.</p></li>
-<li><p>(M11-M12). Organize data benchmark repository. Start writing an article (for the R journal).</p></li>
+<li>(M1-M3). Create the website infrastructure, so that it is easy to navigate and to update.</li>
 </ol>
-<p>Work and steps can be published in blogs on the R Consortium blog.</p>
-<p>Expected impact: Missing values handling is crucial for data analysis and an easy to use platform could allow users to give more values to their analyses</p>
+</div>
+<div id="milestone-two-list-articles-and-related-works-by-theme" class="section level3">
+<h3>Milestone two: list articles and related works by theme</h3>
+<ol start="2" style="list-style-type: decimal">
+<li>(M4-M6). List, organize the packages/articles available.</li>
+</ol>
+</div>
+<div id="milestone-three-tutorials-and-workflows." class="section level3">
+<h3>Milestone three: Tutorials and workflows.</h3>
+<ol start="3" style="list-style-type: decimal">
+<li>(M7-M10). Write documentation/tutorials to better reproduce the existing studies and help the users with their own analyses. The idea is to suggest some good practice pipelines to analyse data with missing values. Some tutorials will be done with small videos.</li>
+</ol>
+</div>
+<div id="milestone-four-future-extensions-and-beyond" class="section level3">
+<h3>Milestone four: future extensions and beyond</h3>
+<ol start="4" style="list-style-type: decimal">
+<li>(M11-M12). Organize data benchmark repository. Start writing an article (for the R journal) on the experience. We would also at this point like to start considering ideas such as universal approaches to multiple imputation, implementing other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.</li>
+</ol>
+</div>
 </div>
 <div id="how-ics-can-help" class="section level2">
 <h2>How ICS can help</h2>
@@ -187,11 +204,11 @@ $(document).ready(function () {
 </tr>
 <tr class="even">
 <td align="left">Meeting with partners</td>
-<td align="left">Euro 1500</td>
+<td align="left">Euro 2500</td>
 </tr>
 <tr class="odd">
-<td align="left">online materials (such as video)</td>
-<td align="left">Euro 1500</td>
+<td align="left">online materials</td>
+<td align="left">Euro 500</td>
 </tr>
 <tr class="even">
 <td align="left">Total</td>
@@ -199,18 +216,22 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
-<div id="emplying-a-research-assistant" class="section level3">
-<h3>Emplying a research assistant</h3>
+<div id="employing-research-assistants" class="section level3">
+<h3>Employing research assistant(s)</h3>
+<p>Julie and Nick will jointly supervise a research assistant, or multiple research assistants, who will help with the Milestones desribed.</p>
 </div>
 <div id="meeting-with-partners" class="section level3">
 <h3>Meeting with Partners</h3>
+<p>It will be of great benefit to for both of us to work together face to face for one week or so. In this case it would either be a trip from France to Australia, or Australia to France. We’d like to request support for helping with the long haul flight.</p>
 </div>
 <div id="online-materials" class="section level3">
 <h3>Online materials</h3>
+<p>These costs will cover a domain name server costs for us to set up an online community.</p>
 </div>
 </div>
 <div id="dissemination" class="section level2">
 <h2>Dissemination</h2>
+<p>The platform we create will serve as the primary dissemination of the project. We will also write blog posts for the R Consortium site, and Nick will also blog about the experience on his personal blog.</p>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>

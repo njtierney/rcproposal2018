@@ -63,7 +63,7 @@ leadership position on the subject.
 
 ## The Plan
 
-To create this platform, we address our objectives in four parts.
+To create this platform, we wish to address the objectives in four parts.
 
 **Part one: listing available R packages**
 
@@ -115,46 +115,53 @@ approaches to multiple imputation, other special types of missing value
 the base R to encourage other approaches than deleting missing
 observations by default, or at least indicating the risks, etc.
 
+Expected impact: Missing values handling is crucial for data analysis
+and an easy to use platform could allow users to give more values to
+their analyses.
+
+
 ## Team
 
-[Julie Josse](http://juliejosse.com/) has written R packages for missing data,
+[Julie Josse](http://juliejosse.com/) is a professor of statistics at Ecole Polytechnique has written R packages for missing data,
 include missMDA, and has also authored multiple academic papers on the topic ...
 (more details to come)
 
-[Nicholas Tierney](http://www.njtierney.com/) has written two R packages that 
+[Nicholas Tierney](http://www.njtierney.com/) has a PhD in statistics and is a research fellow in the department of econometrics and business statistics. Nick has written two R packages that 
 focus on data visualisation and approaches for exploring missing data: visdat, 
 and naniar. He has also authored a peer reviewed paper on model based approaches
 for understanding structure in missing data. Nick is very involed with the R
 community, having been the lead organiser for the first two Australian rOpenSci
 ozunconferences ([2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), 
 and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area
-in California.
+in California. In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities.
 
 We will also contact contributors to missing data, such as François Husson, Professor of Statistics at Agrocampus Ouest, France, and Stefan van Buuren, and welcome other interest.
 
-## Timeline - Budget
+## Project Milestones
 
 We would like to conduct the project over the following time periods (M1 refers
 to month 1):
 
+### Milestone one: listing available R packages
+
 1. (M1-M3). Create the website infrastructure, so that it is easy to
 navigate and to update.
 
+### Milestone two: list articles and related works by theme
+
 2. (M4-M6). List, organize the packages/articles available.
+
+### Milestone three: Tutorials and workflows.
 
 3. (M7-M10). Write documentation/tutorials to better reproduce the
 existing studies and help the users with their own analyses. The idea is
 to suggest some good practice pipelines to analyse data with missing
 values. Some tutorials will be done with small videos.
 
+### Milestone four: future extensions and beyond
+
 4. (M11-M12). Organize data benchmark repository. Start writing an
-article (for the R journal).
-
-Work and steps can be published in blogs on the R Consortium blog.
-
-Expected impact: Missing values handling is crucial for data analysis
-and an easy to use platform could allow users to give more values to
-their analyses
+article (for the R journal) on the experience. We would also at this point like to start considering ideas such as universal approaches to multiple imputation, implementing other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.
 
 ## How ICS can help
 
@@ -165,16 +172,24 @@ The following table details the cost items.
   Item                                                       Cost
   ---------------------------------------------------------- -----------
   Employ a research assistant for one year (10 hrs / week)   Euro 7000
-  Meeting with partners                                      Euro 1500
-  online materials (such as video)                           Euro 1500
+  Meeting with partners                                      Euro 2500
+  online materials                                           Euro 500
   Total                                                      10000
 
-### Emplying a research assistant
+### Employing research assistant(s)
+
+Julie and Nick will jointly supervise a research assistant, or multiple research assistants, who will help with the Milestones desribed.
 
 ### Meeting with Partners
 
+It will be of great benefit to for both of us to work together face to face for one week or so. In this case it would either be a trip from France to Australia, or Australia to France. We'd like to request support for helping with the long haul flight.
+
 ### Online materials
 
+These costs will cover a domain name server costs for us to set up an online community.
+
 ## Dissemination
+
+The platform we create will serve as the primary dissemination of the project. We will also write blog posts for the R Consortium site, and Nick will also blog about the experience on his personal blog.
 
 # References
