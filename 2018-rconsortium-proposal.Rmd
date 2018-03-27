@@ -158,27 +158,75 @@ We will also contact contributors to missing data, such as François Husson, Pro
 We would like to conduct the project over the following time periods (M1 refers
 to month 1):
 
-### Milestone one: listing available R packages
+### Milestone one: Create guidelines, infrastructure, and call for support. $2K
 
-1. (M1-M3). Create the website infrastructure, so that it is easy to
-navigate and to update.
+1. (M1-M3).  
 
-### Milestone two: list articles and related works by theme
+- Find suitable research assistant to help with this project. 
+- Make a call out to members of the R community interested in missing data. 
+- Establish guidelines and principles to decide what is added to this new taskview, which may involve giving badges to packages, say for example if it is on CRAN, or if it has undergone a peer review for the package code. This would mean that packages with peer review or other positive flairs (on CRAN, for example), would be easier to search for and "rated higher" than others. 
+- Create website infrastructure so that it is easy to navigate and to update, likely done with bookdown or blogdown. Note that the source code for this will be hosted publicly on github.
+
+### Milestone two: list articles and related works by theme. $4k
+
+(120 hours)
 
 2. (M4-M6). List, organize the packages/articles available.
 
-### Milestone three: Tutorials and workflows.
+- List all R packages that work with missing data
+- Using criteria and guidelines from milestone one, establish high quality R packages
+and provide more information about these.
+- Add flairs and themes to packages
+- Similar to above, but for key articles on missing data
+- Key to success here is enlisting the help of the members of the community, to submit their articles or works to be reviewed for placement on the platform/website.
 
-3. (M7-M10). Write documentation/tutorials to better reproduce the
+### Milestone three: Tutorials and workflows. $4K
+
+120 hours
+
+3. (M7-M10). 
+
+- Write documentation/tutorials to better reproduce the
 existing studies and help the users with their own analyses. The idea is
 to suggest some good practice pipelines to analyse data with missing
-values. Some tutorials will be done with small videos.
+values. Some tutorials will be done with small videos. For this to occur, Nick 
+and Julie would ideally meet face to face.
 
-### Milestone four: future extensions and beyond
+**Part three: Tutorials and workflows.**
+
+In part three, we provide peer reviewed tutorials and analysis workflows
+with a variety of different kinds of missing data. For example, these
+could focus on exploration and visualization at different stages of the
+analyses, advantages and drawbacks of methods such as likelihood based
+approaches, and imputation methods. After imputation or other treatment
+of the missing data, we will encourage assessing the impact on
+subsequent analyses and inferences.
+
+
+### Milestone four: future extensions and beyond $20K
 
 4. (M11-M12). Organize data benchmark repository.
 
+We would also like to consider investing more time in establishing peer review practices for missing data packages. To this end, we would be able to hire a part time 
+research software engineer to assist with an "editing" role.
+
 We would also at this point like to start considering ideas such as universal approaches to multiple imputation, implementing other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.
+
+By providing a platform and community to discuss missing data in R,
+software, and approaches and workflows, we are providing a base from
+which we can grow. For example, this platform could collect datasets to
+benchmark imputation methods, which are currently not being done
+anywhere in the world. By having a community involved in this, we can
+then have useful discussion on the benchmarks, even organize events like
+a challenge to provide the best imputation methods, in a similar fashion
+to the M4 forecasting competition
+(https://robjhyndman.com/hyndsight/m4comp/).
+
+Other ideas that we would like to consider are describing universal
+approaches to multiple imputation, other special types of missing value
+(other than NA like STATAs special missing values), altering messages in
+the base R to encourage other approaches than deleting missing
+observations by default, or at least indicating the risks, etc.
 
 ## How ICS can help
 
