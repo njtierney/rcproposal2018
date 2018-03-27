@@ -1,6 +1,6 @@
 ---
 title: "A unified platform for missing values methods and workflows"
-date: "`r Sys.Date()`"
+date: "2018-03-27"
 output:
   html_document:
     keep_md: yes
