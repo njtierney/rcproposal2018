@@ -125,7 +125,7 @@ their analyses.
 
 ## Team
 
-[Julie Josse](http://juliejosse.com/) is Professor of Statistics at Ecole
+[**Julie Josse**](http://juliejosse.com/) is Professor of Statistics at Ecole
 Polytechnique in France. Julie was trained as an engineer in statistics in an
 Agronomy University. Her PhD was given the award "Best PhD in Applied Statistics" by the French Statistical Society. She has specialized
 in missing data, visualization and the nonparametric analyses of complex data
@@ -142,14 +142,11 @@ value, "MissData" in 2015 and she is often invited to give lectures around the
 world to share her experience. She is deeply involved in the R community and is
 part of Rforwards to widen the participation of minorities in the communities.
 
-[Nicholas Tierney](http://www.njtierney.com/) has a PhD in statistics and is a research fellow in the department of econometrics and business statistics. Nick has written two R packages that 
-focus on data visualisation and approaches for exploring missing data: visdat, 
-and naniar. He has also authored a peer reviewed paper on model based approaches
-for understanding structure in missing data. Nick is very involed with the R
-community, having been the lead organiser for the first two Australian rOpenSci
-ozunconferences ([2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), 
-and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area
-in California. In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities.
+[**Nicholas Tierney**](http://www.njtierney.com/) was trained in Psychology before changing to statistics, recently completing his PhD in statistics at the end of 2018. Nick is currently a research fellow in the department of econometrics and business statistics, and a member of the [rOpenSci](http://ropensci.org/) community, and a [software carpentary instructor trainer](https://software-carpentry.org/blog/2018/03/welcome-more-trainers.html). Nick has written two R packages that 
+focus on data visualisation and approaches for exploring missing data: [visdat](http://visdat.njtierney.com/), 
+and [naniar](http://naniar.njtierney.com/). He has also authored a [peer reviewed paper on model based approaches for understanding structure in missing data](http://bmjopen.bmj.com/content/5/6/e007450.full). In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities, having been the lead organiser for the first two Australian rOpenSci ozunconferences ( [2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), being an active member of the Statistics Society of Australia (Young Stats rep for Queensland 2013-2016, General council member for Victoria 2017-), and also having been the organisational chair for the [Bayesian Research and Applications Group](https://bragqut.wordpress.com/) and the [NUMBAT](http://numbat.space/). Nick has presented his research using R domestically and internationally.
+
+**Research Assistant (RA)**. The RA will have strong R skills, will have experience with bookdown, blogdown, and webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will also have research experience, and will understand how to conduct a literature review and summarise literature. It will not be critical for the RA to have experience working with missing data, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
 
 We will also contact contributors to missing data, such as François Husson, Professor of Statistics at Agrocampus Ouest, France, and Stefan van Buuren, and welcome other interest.
 
@@ -160,7 +157,7 @@ to month 1):
 
 ### Milestone one: Create guidelines, infrastructure, and call for support. $2K
 
-1. (M1-M3).  
+1. (M1-M4).  
 
 - Find suitable research assistant to help with this project. 
 - Make a call out to members of the R community interested in missing data. 
@@ -169,9 +166,7 @@ to month 1):
 
 ### Milestone two: list articles and related works by theme. $4k
 
-(120 hours)
-
-2. (M4-M6). List, organize the packages/articles available.
+2. (M5-M7). List, organize the packages/articles available.
 
 - List all R packages that work with missing data
 - Using criteria and guidelines from milestone one, establish high quality R packages
@@ -182,51 +177,24 @@ and provide more information about these.
 
 ### Milestone three: Tutorials and workflows. $4K
 
-120 hours
+3. (M8-M11). 
 
-3. (M7-M10). 
+- Write documentation and tutorials to better reproduce existing studies and help the users with their own analyses. 
+- The idea here being to suggest good practices and pipelines to analyse data with missing values, which might involve video.
+- Ideally here Nick and Julie would meet face to face.
 
-- Write documentation/tutorials to better reproduce the
-existing studies and help the users with their own analyses. The idea is
-to suggest some good practice pipelines to analyse data with missing
-values. Some tutorials will be done with small videos. For this to occur, Nick 
-and Julie would ideally meet face to face.
+### Milestone four (future work): future extensions and beyond $20K
 
-**Part three: Tutorials and workflows.**
+4. (M12-M24). 
 
-In part three, we provide peer reviewed tutorials and analysis workflows
-with a variety of different kinds of missing data. For example, these
-could focus on exploration and visualization at different stages of the
-analyses, advantages and drawbacks of methods such as likelihood based
-approaches, and imputation methods. After imputation or other treatment
-of the missing data, we will encourage assessing the impact on
-subsequent analyses and inferences.
-
-
-### Milestone four: future extensions and beyond $20K
-
-4. (M11-M12). Organize data benchmark repository.
-
-We would also like to consider investing more time in establishing peer review practices for missing data packages. To this end, we would be able to hire a part time 
-research software engineer to assist with an "editing" role.
-
-We would also at this point like to start considering ideas such as universal approaches to multiple imputation, implementing other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.
-
-By providing a platform and community to discuss missing data in R,
-software, and approaches and workflows, we are providing a base from
-which we can grow. For example, this platform could collect datasets to
-benchmark imputation methods, which are currently not being done
-anywhere in the world. By having a community involved in this, we can
-then have useful discussion on the benchmarks, even organize events like
-a challenge to provide the best imputation methods, in a similar fashion
-to the M4 forecasting competition
-(https://robjhyndman.com/hyndsight/m4comp/).
-
-Other ideas that we would like to consider are describing universal
-approaches to multiple imputation, other special types of missing value
-(other than NA like STATAs special missing values), altering messages in
-the base R to encourage other approaches than deleting missing
-observations by default, or at least indicating the risks, etc.
+- Invest more time in establishing peer review practices for missing data packages. To this end, we would be able to hire a part time research software engineer to assist with an "editing" role.
+- Discuss and implement: 
+  - collecting datasets to benchmark imputation methods,
+  - organize events like a challenge to provide the best imputation methods, in a similar fashion to the M4 forecasting competition (https://robjhyndman.com/hyndsight/m4comp/).
+  - more universal approaches to multiple imputation that can incorporate many different styles and workflows.
+  - Organize data benchmark repository.
+  - special types of missing value (other than NA like STATA/SPSS/SAS special missing values), 
+  - Providing messages/warnings in base R when missing values are omitted (e.g., in `plot`, `lm` and `table`) that indicate the risk and encourage other approaches than deletion of missings.
 
 ## How ICS can help
 
@@ -243,7 +211,7 @@ The following table details the cost items.
 
 ### Employing research assistant(s)
 
-Julie and Nick will jointly supervise a research assistant, who will help with the Milestones desribed.
+Julie and Nick will jointly supervise a research assistant, who will help with the Milestones desribed. 
 
 ### Meeting with Partners
 
@@ -251,7 +219,7 @@ It will be of great benefit to for both of us to work together face to face for 
 
 ### Online materials
 
-These costs will cover a domain name server costs for us to set up an online community.
+These costs will cover a domain name and server costs for us to set up an online community.
 
 ## Dissemination
 

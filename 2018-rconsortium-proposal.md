@@ -125,7 +125,7 @@ their analyses.
 
 ## Team
 
-[Julie Josse](http://juliejosse.com/) is Professor of Statistics at Ecole
+[**Julie Josse**](http://juliejosse.com/) is Professor of Statistics at Ecole
 Polytechnique in France. Julie was trained as an engineer in statistics in an
 Agronomy University. Her PhD was given the award "Best PhD in Applied Statistics" by the French Statistical Society. She has specialized
 in missing data, visualization and the nonparametric analyses of complex data
@@ -142,14 +142,11 @@ value, "MissData" in 2015 and she is often invited to give lectures around the
 world to share her experience. She is deeply involved in the R community and is
 part of Rforwards to widen the participation of minorities in the communities.
 
-[Nicholas Tierney](http://www.njtierney.com/) has a PhD in statistics and is a research fellow in the department of econometrics and business statistics. Nick has written two R packages that 
-focus on data visualisation and approaches for exploring missing data: visdat, 
-and naniar. He has also authored a peer reviewed paper on model based approaches
-for understanding structure in missing data. Nick is very involed with the R
-community, having been the lead organiser for the first two Australian rOpenSci
-ozunconferences ([2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), 
-and presenting at R user groups in Brisbane and Melbourne in Australia, and The Bay Area
-in California. In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities.
+[**Nicholas Tierney**](http://www.njtierney.com/) has an Undegraduate in Psychology (with honours), and a PhD in statistics. Nick is currently a research fellow in the department of econometrics and business statistics, and a member of the [rOpenSci](http://ropensci.org/) community, and a [software carpentary instructor trainer](https://software-carpentry.org/blog/2018/03/welcome-more-trainers.html). Nick has written two R packages that 
+focus on data visualisation and approaches for exploring missing data: [visdat](http://visdat.njtierney.com/), 
+and [naniar](http://naniar.njtierney.com/). He has also authored a [peer reviewed paper on model based approaches for understanding structure in missing data](http://bmjopen.bmj.com/content/5/6/e007450.full). In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities, having been the lead organiser for the first two Australian rOpenSci ozunconferences ( [2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), being an active member of the Statistics Society of Australia (Young Stats rep for Queensland 2013-2016, General council member for Victoria 2017-), and also having been the organisational chair for the [Bayesian Research and Applications Group](https://bragqut.wordpress.com/) and the [NUMBAT](http://numbat.space/). Nick has presented his research using R domestically and internationally.
+
+**Research Assistant (RA)**. The RA will have strong R skills, will have experience with bookdown, blogdown, and webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will also have research experience, and will understand how to conduct a literature review and summarise literature. It will not be critical for the RA to have experience working with missing data, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
 
 We will also contact contributors to missing data, such as François Husson, Professor of Statistics at Agrocampus Ouest, France, and Stefan van Buuren, and welcome other interest.
 
@@ -158,27 +155,46 @@ We will also contact contributors to missing data, such as François Husson, Pro
 We would like to conduct the project over the following time periods (M1 refers
 to month 1):
 
-### Milestone one: listing available R packages
+### Milestone one: Create guidelines, infrastructure, and call for support. $2K
 
-1. (M1-M3). Create the website infrastructure, so that it is easy to
-navigate and to update.
+1. (M1-M4).  
 
-### Milestone two: list articles and related works by theme
+- Find suitable research assistant to help with this project. 
+- Make a call out to members of the R community interested in missing data. 
+- Establish guidelines and principles to decide what is added to this new taskview, which may involve giving badges to packages, say for example if it is on CRAN, or if it has undergone a peer review for the package code. This would mean that packages with peer review or other positive flairs (on CRAN, for example), would be easier to search for and "rated higher" than others. 
+- Create website infrastructure so that it is easy to navigate and to update, likely done with bookdown or blogdown. Note that the source code for this will be hosted publicly on github.
 
-2. (M4-M6). List, organize the packages/articles available.
+### Milestone two: list articles and related works by theme. $4k
 
-### Milestone three: Tutorials and workflows.
+2. (M5-M7). List, organize the packages/articles available.
 
-3. (M7-M10). Write documentation/tutorials to better reproduce the
-existing studies and help the users with their own analyses. The idea is
-to suggest some good practice pipelines to analyse data with missing
-values. Some tutorials will be done with small videos.
+- List all R packages that work with missing data
+- Using criteria and guidelines from milestone one, establish high quality R packages
+and provide more information about these.
+- Add flairs and themes to packages
+- Similar to above, but for key articles on missing data
+- Key to success here is enlisting the help of the members of the community, to submit their articles or works to be reviewed for placement on the platform/website.
 
-### Milestone four: future extensions and beyond
+### Milestone three: Tutorials and workflows. $4K
 
-4. (M11-M12). Organize data benchmark repository.
+3. (M8-M11). 
 
-We would also at this point like to start considering ideas such as universal approaches to multiple imputation, implementing other special types of missing value (other than NA like STATAs special missing values), altering messages in the base R to encourage other approaches than deleting missing observations by default, or at least indicating the risks, etc.
+- Write documentation and tutorials to better reproduce existing studies and help the users with their own analyses. 
+- The idea here being to suggest good practices and pipelines to analyse data with missing values, which might involve video.
+- Ideally here Nick and Julie would meet face to face.
+
+### Milestone four (future work): future extensions and beyond $20K
+
+4. (M12-M24). 
+
+- Invest more time in establishing peer review practices for missing data packages. To this end, we would be able to hire a part time research software engineer to assist with an "editing" role.
+- Discuss and implement: 
+  - collecting datasets to benchmark imputation methods,
+  - organize events like a challenge to provide the best imputation methods, in a similar fashion to the M4 forecasting competition (https://robjhyndman.com/hyndsight/m4comp/).
+  - more universal approaches to multiple imputation that can incorporate many different styles and workflows.
+  - Organize data benchmark repository.
+  - special types of missing value (other than NA like STATA/SPSS/SAS special missing values), 
+  - Providing messages/warnings in base R when missing values are omitted (e.g., in `plot`, `lm` and `table`) that indicate the risk and encourage other approaches than deletion of missings.
 
 ## How ICS can help
 
@@ -195,7 +211,7 @@ The following table details the cost items.
 
 ### Employing research assistant(s)
 
-Julie and Nick will jointly supervise a research assistant, who will help with the Milestones desribed.
+Julie and Nick will jointly supervise a research assistant, who will help with the Milestones desribed. 
 
 ### Meeting with Partners
 
@@ -203,7 +219,7 @@ It will be of great benefit to for both of us to work together face to face for 
 
 ### Online materials
 
-These costs will cover a domain name server costs for us to set up an online community.
+These costs will cover a domain name and server costs for us to set up an online community.
 
 ## Dissemination
 
