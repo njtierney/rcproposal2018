@@ -39,20 +39,24 @@ missing values. Some use imputation, creating single or multiple
 completed datasets. Some use weighting approaches, appealing to ideas
 from the design-based literature in survey sampling.
 
-R has many more approaches for working with missing data than other statistical
-software. To be exact, there are currently 274 R
-packages on CRAN that mention missing data or imputation in their DESCRIPTION
-files. There are imputation packages such as mice, Amelia, and mi 
-[@mi; @amelia; @mi]. There are providing descriptive statistics and 
-visualisations, like naniar, VIM, and MissingDataGUI [@naniar; @VIM; @Cheng2015]. 
-There are still many other packages developed to handle complex, heterogenous
-(categorical, quantitative, ordinal variables) data of large dimension 
-multi-level data, such as missMDA, and MixedDataImpute 
-[@Josse2016; @Murray2015].
+R has many more methods for working with missing data than other statistical
+software.  One feature that R is lacking that other statistical programming
+languages have is special missing values. To add this feature in an analogous
+way to other languages would require changes to R core code, which is outside
+the scope of this project.
 
-There are many missing data packages in R that solve real problems. A
-problem with so many options is navigating the decision paralysis of
-choice - which one is right for the case at hand. It is not trivial.
+R is able to incorporate so many methods due to its modular packaging system.
+Currently, there are currently 274 R packages on CRAN that mention missing data
+or imputation in their DESCRIPTION files. These packages serve many different
+applications. There are imputation packages such as mice, Amelia, and mi 
+[@mi; @amelia; @mi]. There are providing descriptive statistics and visualisations,
+like naniar, VIM, and MissingDataGUI [@naniar; @VIM; @Cheng2015].  There are 
+still many other packages developed to handle complex, heterogenous 
+(categorical, quantitative, ordinal variables) data of large dimension 
+multi-level data, such as missMDA, and MixedDataImpute [@Josse2016; @Murray2015]. 
+There are many missing data packages in R that solve real problems. A problem 
+with so many options is navigating the decision paralysis of choice - which one 
+is right for the case at hand. It is not trivial.
 
 This application aims to valorize current work in missing data by
 providing a unified platform that lists and organizes existing packages,
