@@ -1,6 +1,6 @@
 ---
 title: "A unified platform for missing values methods and workflows"
-date: "2018-03-28"
+date: "2018-03-29"
 output:
   html_document:
     keep_md: yes
@@ -15,7 +15,7 @@ _Nicholas Tierney, Monash university, Australia; nicholas.tierney@monash.edu_
 
 ## The Problem
 
-Missing values are an unavoidable problem when working with real world
+Missing values are an unavoidable problem when working with
 data. They occur for many reasons. For example, individuals choose not
 to answer survey questions, weather measurement devices fail in wet
 weather, or participants drop out of a study. Missing values are
@@ -39,12 +39,6 @@ missing values. Some use imputation, creating single or multiple
 completed datasets. Some use weighting approaches, appealing to ideas
 from the design-based literature in survey sampling.
 
-R has many more methods for working with missing data than other statistical
-software.  One feature that R is lacking that other statistical programming
-languages have is special missing values. To add this feature in an analogous
-way to other languages would require changes to R core code, which is outside
-the scope of this project.
-
 R is able to incorporate so many methods due to its modular packaging system.
 Currently, there are currently 274 R packages on CRAN that mention missing data
 or imputation in their DESCRIPTION files. These packages serve many different
@@ -54,7 +48,7 @@ like naniar, VIM, and MissingDataGUI [@naniar; @VIM; @Cheng2015].  There are
 still many other packages developed to handle complex, heterogenous 
 (categorical, quantitative, ordinal variables) data of large dimension 
 multi-level data, such as missMDA, and MixedDataImpute [@Josse2016; @Murray2015]. 
-There are many missing data packages in R that solve real problems. A problem 
+There are many missing data packages in R. A problem 
 with so many options is navigating the decision paralysis of choice - which one 
 is right for the case at hand. It is not trivial.
 
@@ -92,7 +86,7 @@ is also often used as a reference on the topic.
 Similar to part one with R packages, we will list articles and related
 works, organising by theme. This can be rather laborious work, to ensure
 robustness we will also put a call out for authors to submit their
-articles or works, and reviweres to review their placement on the platform/website.
+articles or works, and reviewers to review their placement on the platform/website.
 
 **Part three: Tutorials and workflows.**
 
@@ -117,11 +111,12 @@ perhaps in a similar fashion to the M4 forecasting competition
 (https://robjhyndman.com/hyndsight/m4comp/).
 
 In future work for this working group, we would like to discuss more ambitious
-work, that currently fall outside the charter of the R Consortium. For example, 
+work, that currently fall outside the charter of the R Consortium, and would also 
+benefit from community discussion and consensus. For example, 
 considering implementing other special types of missing value other than NA, 
 such as STATAs special missing values; altering messages in base R to encourage 
 other approaches than deleting missing observations by default, or at least 
-indicate the risks, etc.
+indicate the risks, etc. 
 
 **Expected impact of this iniative.** Handling missing values is crucial for data analysis,
 and an easy to use platform provides immense value to the analysis of many users.
@@ -150,7 +145,7 @@ part of Rforwards to widen the participation of minorities in the communities.
 focus on data visualisation and approaches for exploring missing data: [visdat](http://visdat.njtierney.com/), 
 and [naniar](http://naniar.njtierney.com/). He has also authored a [peer reviewed paper on model based approaches for understanding structure in missing data](http://bmjopen.bmj.com/content/5/6/e007450.full). In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities, having been the lead organiser for the first two Australian rOpenSci ozunconferences ( [2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), being an active member of the Statistics Society of Australia (Young Stats rep for Queensland 2013-2016, General council member for Victoria 2017-), and also having been the organisational chair for the [Bayesian Research and Applications Group](https://bragqut.wordpress.com/) and the [NUMBAT](http://numbat.space/). Nick has presented his research using R domestically at local conferences and meetups, and internationally, at UseR in 2017, and also at the Bay Area R User Group, and at Genentech, California.
 
-**Research Assistant (RA)**. The RA will have strong R skills, will have experience with bookdown, blogdown, and webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will also have research experience, and will understand how to conduct a literature review and summarise and synthesize literature. It will not be critical for the RA to have experience working with missing data or with R package development, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
+**Research Assistant (RA)**. The RA will be practiced with R, will have some experience with bookdown, blogdown, and IT skills such as webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will ideally have research experience (understand how to conduct a literature review and summarise and synthesize literature). It will not be critical for the RA to have experience working with missing data or with R package development, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
 
 We will also contact contributors to missing data, such as François Husson, (Professor of Statistics at Agrocampus Ouest, France), Stefan van Buuren, and Mark van der loo. We also welcome and encourage interest from other R users, developers, and analysts.
 
@@ -183,7 +178,7 @@ and provide more information about these.
 
 3. (M8-M11). 
 
-- Write documentation and tutorials to better reproduce existing studies and help the users with their own analyses. 
+- Gather and write documentation and tutorials to better reproduce existing studies and help the users with their own analyses. 
 - The idea here being to suggest good practices and pipelines to analyse data with missing values, which might involve video.
 - Ideally here Nick and Julie would meet face to face.
 
@@ -199,8 +194,7 @@ At this point we would like to assess our progress so far on the project and con
   - organize events like a challenge to provide the best imputation methods, in a similar fashion to the M4 forecasting competition (https://robjhyndman.com/hyndsight/m4comp/).
   - more universal approaches to multiple imputation that can incorporate many different styles and workflows.
   - Organize data benchmark repository.
-  - special types of missing value (other than NA like STATA/SPSS/SAS special missing values), 
-  - Providing messages/warnings in base R when missing values are omitted (e.g., in `plot`, `lm` and `table`) that indicate the risk and encourage other approaches than deletion of missings.
+  - Discuss and arrive at a community consensus for features such as special types of missing value (other than NA like STATA/SPSS/SAS special missing values), and providing messages/warnings in base R when missing values are omitted (e.g., in `plot`, `lm` and `table`) that indicate the risk and encourage other approaches than deletion of missings.
 
 ## How ISC can help
 
