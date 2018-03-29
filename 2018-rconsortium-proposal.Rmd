@@ -45,7 +45,7 @@ or imputation in their DESCRIPTION files. These packages serve many different
 applications. There are imputation packages such as mice, Amelia, and mi 
 [@mi; @amelia; @mi]. There are providing descriptive statistics and visualisations,
 like naniar, VIM, and MissingDataGUI [@naniar; @VIM; @Cheng2015].  There are 
-still many other packages developed to handle complex, heterogenous 
+still many other packages developed to handle complex, heterogeneous 
 (categorical, quantitative, ordinal variables) data of large dimension 
 multi-level data, such as missMDA, and MixedDataImpute [@Josse2016; @Murray2015]. 
 There are many missing data packages in R. A problem 
@@ -141,11 +141,11 @@ value, "MissData" in 2015 and she is often invited to give lectures around the
 world to share her experience. She is deeply involved in the R community and is
 part of Rforwards to widen the participation of minorities in the communities.
 
-[**Nicholas Tierney**](http://www.njtierney.com/) was trained in Psychology before changing to statistics, recently completing his PhD in statistics at the end of 2018. Nick is currently a research fellow in the department of econometrics and business statistics at Monas University, and a member of the [rOpenSci](http://ropensci.org/) community, and a [software carpentary instructor trainer](https://software-carpentry.org/blog/2018/03/welcome-more-trainers.html). Nick has written two R packages that 
+[**Nicholas Tierney**](http://www.njtierney.com/) was trained in Psychology before changing to statistics, recently completing his PhD in statistics at the end of 2018. Nick is currently a research fellow in the department of econometrics and business statistics at Monash University, and a member of the [rOpenSci](http://ropensci.org/) community, and a [software carpentary instructor trainer](https://software-carpentry.org/blog/2018/03/welcome-more-trainers.html). Nick has written two R packages that 
 focus on data visualisation and approaches for exploring missing data: [visdat](http://visdat.njtierney.com/), 
-and [naniar](http://naniar.njtierney.com/). He has also authored a [peer reviewed paper on model based approaches for understanding structure in missing data](http://bmjopen.bmj.com/content/5/6/e007450.full). In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and comminities, having been the lead organiser for the first two Australian rOpenSci ozunconferences ( [2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), being an active member of the Statistics Society of Australia (Young Stats rep for Queensland 2013-2016, General council member for Victoria 2017-), and also having been the organisational chair for the [Bayesian Research and Applications Group](https://bragqut.wordpress.com/) and the [NUMBAT](http://numbat.space/). Nick has presented his research using R domestically at local conferences and meetups, and internationally, at UseR in 2017, and also at the Bay Area R User Group, and at Genentech, California.
+and [naniar](http://naniar.njtierney.com/). He has also authored a [peer reviewed paper on model based approaches for understanding structure in missing data](http://bmjopen.bmj.com/content/5/6/e007450.full). In addition to his experience with statistics and R package development, Nick brings experience on wrangling groups of people together to build projects and communities, having been the lead organiser for the first two Australian rOpenSci ozunconferences ( [2017](auunconf.ropensci.org) and [2018](ozunconf17.ropensci.org)), being an active member of the Statistics Society of Australia (Young Stats rep for Queensland 2013-2016, General council member for Victoria 2017-), and also having been the organisational chair for the [Bayesian Research and Applications Group](https://bragqut.wordpress.com/) and the [NUMBAT](http://numbat.space/). Nick has presented his research using R domestically at local conferences and meetups, and internationally, at UseR in 2017, and also at the Bay Area R User Group, and at Genentech, California.
 
-**Research Assistant (RA)**. The RA will be practiced with R, will have some experience with bookdown, blogdown, and IT skills such as webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will ideally have research experience (understand how to conduct a literature review and summarise and synthesize literature). It will not be critical for the RA to have experience working with missing data or with R package development, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
+**Research Assistant (RA)**. The RA will have experience using R, will have some experience with bookdown, blogdown, and IT skills such as webservices (setting up and maintaining a new domain name, basic HTML + CSS). The RA will ideally have research experience (understand how to conduct a literature review and summarise and synthesize literature). It will not be critical for the RA to have experience working with missing data or with R package development, but this would be a plus. The most important skills would be for the RA to have the capacity to learn about new research areas and critically reason with the literature.
 
 We will also contact contributors to missing data, such as François Husson, (Professor of Statistics at Agrocampus Ouest, France), Stefan van Buuren, and Mark van der loo. We also welcome and encourage interest from other R users, developers, and analysts.
 
@@ -160,7 +160,7 @@ to month 1).
 
 - Find suitable research assistant to help with this project. 
 - Make a call out to members of the R community interested in joining an ISC working group on missing data.
-- Establish a Missing Values Task View along with guidelines and principles to decide what is added to this new taskview, which may involve giving badges to packages, say for example if it is on CRAN, or if it has undergone a peer review for the package code. This would mean that packages with peer review or other positive flairs (on CRAN, for example), would be easier to search for and "rated higher" than others. 
+- Establish a Missing Values Task View along with guidelines and principles to decide what is added to this new task view, which may involve giving badges to packages, say for example if it is on CRAN, or if it has undergone a peer review for the package code. This would mean that packages with peer review or other positive flairs (on CRAN, for example), would be easier to search for and "rated higher" than others. 
 - Create website infrastructure so that it is easy to navigate and to update, likely done with bookdown or blogdown. Note that the source code for this will be hosted publicly on github.
 
 ### Milestone two: list articles and related works by theme. $4k
@@ -200,7 +200,7 @@ At this point we would like to assess our progress so far on the project and con
 
 ### Employing research assistant(s)
 
-Julie and Nick will jointly supervise a research assistant, who will help with the Milestones desribed. 
+Julie and Nick will jointly supervise a research assistant, who will help with the Milestones described. 
 
 ### Meeting with Partners
 
