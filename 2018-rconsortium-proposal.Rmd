@@ -2,6 +2,7 @@
 title: "A unified platform for missing values methods and workflows"
 date: "`r Sys.Date()`"
 output:
+  pdf_document: default
   html_document:
     keep_md: yes
 bibliography: proposal.bib
